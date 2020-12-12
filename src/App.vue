@@ -1,28 +1,32 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <!-- <Register/> -->
+  <!-- <login/> -->
+  <!-- <Me/> -->
+  <!-- <About/> -->
+  <Post/>
+  <!-- <Home/> -->
+  <!-- <Follow/> -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  // import Register from './views/Register.vue'
+  // import login from './views/login.vue'
+  // import Me from './views/Me.vue'
+  // import About from './views/About.vue'
+  import Post from './views/Post.vue'
+  // import Home from './views/Home.vue'
+  // import Follow from './views/Follow.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    name: 'app',
+    components: {
+      // fRegister,
+      // login,
+      // Me,
+      // About,
+      Post,
+      // Home,
+      // Follow,
+    }
   }
-}
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
